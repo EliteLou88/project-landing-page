@@ -36,12 +36,15 @@ footer {
 
 header,
 footer {
-    text-align: center;
     height: 50px;
 }
 
+footer {
+    text-align: center;
+}
+
 section {
-    height: 300px;
+    height: 350px;
 }
 
 h1 {
@@ -63,18 +66,27 @@ li {
 
 .header-c {
     display:flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 
 .i {
-    width: 30%;
+    width: 35%;
+}
+
+nav {
+    text-align:right;
 }
 
 /*Button*/
 
 button {
     background-color: #3882F6;
+    border-radius: 8%;
+    height: 50px;
+    width: 100px;
+    color: white;
+
 }
 
 .section3 {
@@ -85,7 +97,7 @@ button {
 
 .section1-c {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -115,4 +127,19 @@ h2 {
 .section3 {
     text-align: center;
     font-size: 36px;
+}
+
+.section4-c {
+    display: flex;
+    justify-content: space-around;
+}
+
+.section4-i {
+    height: 150px;
+    width: 650px;
+    text-align: center;
+    align-self: center;
+    background-color:#3882F6;
+    border-radius: 2%;
+    color: white;
 }
