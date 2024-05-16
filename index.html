@@ -4,39 +4,57 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Project - Landing Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <div><h4>Header Logo</h4></div>
-        <nav><ul>
+    <header class="header-c bluebg">
+        <div class="logo-i i"><h4>Header Logo</h4></div>
+        <nav class="nav-i i"><ul>
             <li>About</li>
             <li>Services</li>
             <li>Contact</li>
         </ul></nav>
     </header>
 
-    <section class="section1">
-        <h1>This website is tremendous!</h1>
+    <section class="section1 bluebg section1-c">
+        <div class="section1-i intro">
+            <h1>This website is tremendous!</h1>
         <p>Just a little bit of subtext here to fill out the pace, 
             forgeddaboutit!</p>
-            <button>Sign up!</button>
-            <img>
-
+            <button>Sign up!</button></div>
+            <div class="section1-i placeholder">
+                <p>Image placeholder</p>
+            </div>
     </section>
 
     <section>
-        <h2>Random information!</h2>
-            <img src="./assets/images/carbonara.jpg" alt="Picture of pasta" height="120px" width="120px">
-            <img src="./assets/images/chilli.jpeg" alt="Picture of chilli" height="120px" width="120px">
-            <img src="./assets/images/frozenpizza.jpg" alt="Picture of pizza" height="120px" width="120px">
-            <img src="./assets/images/curry.jpg" alt="Picture of curry" height="120px" width="120px">
+        <br>
+        <h2>Random information!</h2><br>
+        <div class="section2-c">
+            <div class="section2-i">
+                <img src="./assets/images/carbonara.jpg" alt="Picture of pasta" height="120px" width="120px"><br>
+                <p>Here we have the classic pasta dish!</p></div>
+            <div class="section2-i">
+                <img src="./assets/images/chilli.jpeg" alt="Picture of chilli" height="120px" width="120px"><br>
+                <p>Here we have the even classicer chilli con carne dish!</p></div>
+            <div class="section2-i">
+                <img src="./assets/images/frozenpizza.jpg" alt="Picture of pizza" height="120px" width="120px"><br>
+                <p>Here we have an Italian classic frozen pizza, lovely crust!</p></div>
+            <div class="section2-i">
+                <img src="./assets/images/curry.jpg" alt="Picture of curry" height="120px" width="120px"><br>
+                <p>And finally one of Britains finest exports around the world, a quality chicken curry!</p></div></div>
     </section>
 
     <section class="section3">
-        <p>This is an inspiring quote, or a rave review from a customer,
+        <br>
+        <p class="roboto-light-italic">This is an inspiring quote, or a rave review from a customer,
          maybe it's just a space filler, who knows? It's just designed 
-        to look nice.</p>
+        to look nice. Oh god, i'm sat here trying to make the page look nice
+         and i'm struggling for space so i need to keep typing. Let's have 
+        another look.... You know what, this'll do!</p>
         <h3>-Thor, God of Thunder</h3>
     </section>
 
@@ -48,7 +66,7 @@
         </div>
     </section>
 
-    <footer>
+    <footer class="bluebg">
         <p>Copyright @ The Odin Project 2024</p>
     </footer>
 </body>

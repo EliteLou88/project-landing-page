@@ -9,17 +9,39 @@ Information header text: 36px extra-bold #1F2937
 Quote section BG color: #E5E7EB
 Quote section text: 36px light italic #1F2937*/
 
-/*Header and Footer*/
-
 * {
     font-family: "Roboto";
+    padding: 0;
+    margin: 0;
+}
+
+.roboto-light-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+
+.bluebg {
+    background-color: #1F2937;
+    color: #F9FAF8;
 }
 
 header,
-footer,
-.section1 {
-    background-color: #1F2937;
-    color: #F9FAF8;
+section,
+footer {
+    padding: 0% 14%;
+}
+
+/*Header and Footer*/
+
+header,
+footer {
+    text-align: center;
+    height: 50px;
+}
+
+section {
+    height: 300px;
 }
 
 h1 {
@@ -33,8 +55,64 @@ ul {
     color: #F9FAF8;
 }
 
+ul,
+li {
+    list-style: none;
+    display: inline;
+}
 
+.header-c {
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.i {
+    width: 30%;
+}
+
+/*Button*/
+
+button {
+    background-color: #3882F6;
+}
 
 .section3 {
     background-color: #E5E7EB;
+}
+
+/*Section*/
+
+.section1-c {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.placeholder {
+    height: 100px;
+    width: 400px;
+    background-color: #3882F6;
+}
+
+.section1-i {
+    width: 30%;
+}
+
+.section2-c {
+    display: flex;
+    justify-content: space-around;
+}
+
+.section2-i {
+  width: 15%;  
+}
+
+h2 {
+    text-align: center;
+}
+
+.section3 {
+    text-align: center;
+    font-size: 36px;
 }
