@@ -1,0 +1,40 @@
+/* Dark BG Color: #1F2937
+H1: 48px, extra-bold, #F9FAF8
+H2: 24px
+Nav: 18px #E5E7EB
+
+Button color, call to action BG color: #3882F6
+Information header text: 36px extra-bold #1F2937
+
+Quote section BG color: #E5E7EB
+Quote section text: 36px light italic #1F2937*/
+
+/*Header and Footer*/
+
+* {
+    font-family: "Roboto";
+}
+
+header,
+footer,
+.section1 {
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight:bold;
+}
+
+h4,
+ul {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+
+
+.section3 {
+    background-color: #E5E7EB;
+}
